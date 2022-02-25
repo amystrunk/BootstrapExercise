@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bootstrap Exercise">
+
+  <!-- Bootstrap CSS link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>Bootstrap Exercise</title>
+</head>
+<body>
+
+    <!-- bonus 7 animated striped progress bar -->
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+      </div>
+
+    <!-- bonus 8 Nav bar w/dropdown w/o search -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown link
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- 1 - 7 -->
+    <div class="container">
+    <h1 class="display-1">Bootstrap Feels Like Cheating</h1>
+    <h2 class="text-muted bg-danger">Muted Danger</h2>
+    <p class="text-nowrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, consequatur magni dolores asperiores assumenda iste ipsam veniam autem sit tempora! Voluptatem iure commodi aliquam non porro animi aspernatur vel molestias!</p>
+
+<!-- 8 - 11 -->
+    <button class="btn btn-sm btn-dark">Dark</button>
+    <button class="btn btn-lg btn-secondary">Secondary</button>
+    <button class="btn btn-link">Link</button>
+
+<!-- 12 - 21 -->
+    <table class="table table-hover table-success table-striped">
+    <!-- added color to see striping -->
+        <thead>
+            <th>Frontend</th>
+            <th>Backend</th>
+            <th>Web Dev Tools</th>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td class="table-warning">Node.js</td>
+                <td>VS Code</td>
+            </tr>
+            
+            <tr>
+                <td>CSS</td>
+                <td>Express</td>
+                <td>Terminal</td>
+            </tr>
+            
+            <tr class="table-primary">
+                <td>JavaScript</td>
+                <td>MongoDB</td>
+                <td>Git</td>
+            </tr>
+        </tbody>
+    </table>
+
+<!-- Bonus 1 -  -->
+<table>
+    <div class="row">
+        <p class="bg-primary col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam laboriosam ab quos aspernatur, cum ad illo similique suscipit? Vel porro ratione vero animi doloribus ipsam nam facilis quae officia at.</p>
+        
+        <p class="bg-warning col-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore officia minus, veniam, dolorem, praesentium reprehenderit cumque rem itaque aliquam officiis ex! Aliquid nostrum dolor laudantium amet maxime delectus possimus totam?</p>
+    </div>
+    
+    <section class="row">
+        <p class="bg-info col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vero deleniti sit, at qui possimus reiciendis illum eius ipsum voluptatum nisi. Magnam debitis exercitationem quibusdam id nisi enim asperiores iusto!</p>
+        
+        <p class="bg-danger col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vero deleniti sit, at qui possimus reiciendis illum eius ipsum voluptatum nisi. Magnam debitis exercitationem quibusdam id nisi enim asperiores iusto!</p>
+        
+        <p class="bg-success col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vero deleniti sit, at qui possimus reiciendis illum eius ipsum voluptatum nisi. Magnam debitis exercitationem quibusdam id nisi enim asperiores iusto!</p>
+    </section>
+</table>
+
+</div>
+  <!-- Bootstrap JS link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
